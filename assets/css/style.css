@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+
+margin: 0;
+padding: 0;
+}
+.container{
+    display: flex;
+    
+   
+}
+.content{
+    width:100px;
+    height:600px;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition-duration: 2s;
+   
+
+}
+.active{
+    width:1500px;
+    transition: ease-in-out;
+    transition-duration:2s ;
+}
